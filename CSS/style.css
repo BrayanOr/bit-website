@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+  }
+
+html, body{
+    height: auto;
+
+}
+header,
+nav,
+main,
+aside,
+footer {
+    border: 2px solid rgb(255, 255, 255) ; 
+}
+body {
+    margin: 0%;
+    margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+}
+
+/* header----------------------------------------------------------------------------------------------*/
+header {
+    height: 10%;
+    width: 100%;
+    background-image: radial-gradient(#518C8C,#F2F2F2);
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* nav -----------------------------------------------------------------------------------------------*/
+nav {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #518C8C;
+}
+
+.nav-a {
+    color: black;
+padding-right: 15px;
+}
+/* main-------------------------------------------------------------------------------------------------- */
+main{
+    background-color: #F2F2F2;
+}
+#photo1 {
+    display: flex;
+    justify-content: center;
+}
+.photo {
+   margin-top: 5px;
+    border-style: groove;
+        border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+}
+.mainsection1, .mainsection2, .mainsection3, .mainsection4{
+    
+    margin-top: 50px;
+    background-color: #D5F2EF;
+    border-style: solid #D5F2EF #a0aaa9;
+        border-radius: 20px;
+
+}
+#contentprofession {
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.divs1 {
+    border: 2px solid black;
+    margin-top: 5px;
+    
+}
+.diva, .divb, .divc {
+    width: 600px;
+    background-image: radial-gradient(#518C8C, #F2F2F2);
+    border-style: solid;
+    border-radius: 20px;
+}
+/* main, aside------------------------------------------------------------------------------------------ */
+main,
+aside {
+    height: auto;
+
+}
+main {
+    width: 75%;
+}
+/* aside------------------------------------------------------------------------------------------------ */
+aside {
+    width: 25%;
+    background-color: #A7D9D4;
+}
+
+/* footer--------------------------------------------------------------------------------------------- */
+
+footer {
+    height: 10%;
+    width: 100%;
+    background-color: #518C8C;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#divf1 {
+display: flex;
+justify-content: center;
+width: 33%;
+border:(255, 255, 255) solid 2px;
+}
+#divf2 {
+    width: 33%;
+    border: (255, 255, 255) solid 2px;
+    justify-content: center;
+
+}
+#divf3 {
+    width: 34%;
+    border: (255, 255, 255) solid 2px;
+    justify-content: center;
+}

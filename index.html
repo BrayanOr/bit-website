@@ -5,29 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortocut icon" href="assets/logo.jpg" type="image/x-icon">
     <title>bit-website</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1 id="Home"> Orley Ramirez</h1>
+        <h1 id="Home" > Orley Ramirez</h1>
     </header>
     <nav>
-    
-            <a href="#Home">Home</a>
-            <a href="#Profession">Profession</a>
-            <a href="#Family">Family</a>
-            <a href="#Hobbies">Hobbies</a>
-            <a href="social-media.html">Social media</a>
-            <a href="contact.html">Contact</a>
+        <section id="navsection">
+             <a href="#Home" class="nav-a">Home</a>
+            <a href="#Profession" class="nav-a">Profession</a>
+            <a href="#Family" class="nav-a">Family</a>
+            <a href="#Hobbies" class="nav-a">Hobbies</a>
+            <a href="social-media.html" class="nav-a">Social media</a>
+            <a href="contact.html" class="nav-a">Contact</a>
+        </section>
+             
             
     </nav>
+    
 
     <main>
-        <section>
+        <section id="photo1">
             <br>
-            <img src="./assets/1741530331704.jpg" alt="My photo" height="150px" >
+            <img class="photo" src="./assets/1741530331704.jpg" alt="My photo" height="150px" id="my-photo">
         </section>
-        <section>
-            <h2 id="Profession">Profession</h2> <a href="#Home">Top</a>
+        <section class="mainsection1">
+            <h2 id="Profession">Profession</h2> <a href="#Home"><img src="./assets/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="icon home" height="25px"></a>
             <p>Throughout of my life I'd had different kind of jobs, this is one the reason why I have a lot experience, it dosen't mean that I know everything, I'm gonna to mention some of the jobs that I had worked. <br><br>
             For example:
                 <ul>
@@ -36,84 +43,143 @@
                     <li>Comercial Advisor</li>
                     <li>Cashier</li>
                 </ul> 
-                <dl>
-                    <dt>Sales assistant:</dt>
-                    <dd>I worked as a sales assistant for six months, it was my first formal work, i didn't have experience, I was shy, I got that job cause I met a cousin and he gave me the opportunity, I tried to do the things well, but it was difficult after three months I lost my job. 
-                        <img src="https://www.cesde.edu.co/wp-content/uploads/2022/08/banner-E_Empresarial_Asesor-Comercial-y-de-Servicios.jpg" alt="Imagen de referencia" height="150px">
-                    </dd>
-                    <dt>Control Agent:</dt>
-                    <dd>After a couple of months, i got this job, I felt weird 'cause everything was new for me, in my firs day i got the news that i would have to work at the airport, I was confused 'cause I didn't know what should i do, i was thinking that I would just guatd the entrance, but I would receive a surprise, for first time i would know a plane, I would have to guard airplanes, although the different adversities I was happy for almost three years. <br>
-                        <img src="https://www.segurilatam.com/wp-content/uploads/sites/5/2022/05/vigilante-seguridad-avion.jpg" alt="reference image" height="150px">
-                    </dd>
-                    <dt>Comercial advisor:</dt>
-                    <dd>After have had a job where i felt fisically tired every day after work, i would change my fisically tiredness for mental tiredness, i started to work for a company from Chile, the field of that company is the telecomunications, i received more than 60 call per day, but ove time i got used to it, i didn't have problems with that job, I think i had a good performance. <img src="https://www.semana.com/resizer/v2/TFMXVTAJS5BBZKNUE3RXP2OPCA.jpg?auth=f6d7cd7f35ced2c1933fe0395afdcce0d19d935e3ca60c35fcb6adc15754ef4e&smart=true&quality=75&width=1280&height=720" alt="Reference image" height="150px"> </dd>
-
-
-                </dl>
+                <div id="contentprofession">
+                    <dl>
+                        <div class="divs1 diva">
+                            <dt>Sales assistant:</dt>
+                            <dd>I worked as a sales assistant for six months, it was my first formal work, i didn't have experience, I was shy, I got that job cause I met a cousin and he gave me the opportunity, I tried to do the things well, but it was difficult after three months I lost my job. <br>
+                            <img src="https://www.cesde.edu.co/wp-content/uploads/2022/08/banner-E_Empresarial_Asesor-Comercial-y-de-Servicios.jpg" alt="Imagen de referencia" height="150px">
+                            </dd>
+                        </div>
+                            <div class="divs1 divb">
+                             <dt>Control Agent:</dt>
+                            <dd>After a couple of months, i got this job, I felt weird 'cause everything was new for me, in my firs day i got the news that i would have to work at the airport, I was confused 'cause I didn't know what should i do, i was thinking that I would just guatd the entrance, but I would receive a surprise, for first time i would know a plane, I would have to guard airplanes, although the different adversities I was happy for almost three years. <br>
+                            <img src="https://www.segurilatam.com/wp-content/uploads/sites/5/2022/05/vigilante-seguridad-avion.jpg" alt="reference image" height="150px">
+                            </dd>
+                            </div>
+                    
+                    <div class="divs1 divc">
+                        <dt>Comercial advisor:</dt>
+                        <dd>After have had a job where i felt fisically tired every day after work, i would change my fisically tiredness for mental tiredness, i started to work for a company from Chile, the field of that company is the telecomunications, i received more than 60 call per day, but ove time i got used to it, i didn't have problems with that job, I think i had a good performance. 
+                        <br>
+                        <img src="https://www.semana.com/resizer/v2/TFMXVTAJS5BBZKNUE3RXP2OPCA.jpg?auth=f6d7cd7f35ced2c1933fe0395afdcce0d19d935e3ca60c35fcb6adc15754ef4e&smart=true&quality=75&width=1280&height=720" alt="Reference image" height="150px"> </dd>
+                    </div>
+                
+                    </dl>
+                </div>
             </p>
         </section>
-        <section>
-            <H2 id="Family">Family</H2> <a href="#Home">Top</a>
+        <section class="mainsection2">
+            <H2 id="Family">Family</H2> <a href="#Home"><img src="./assets/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="icon home" height="25px"></a>
+
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, corrupti ipsum. Fugiat eligendi nostrum vero veniam repellendus delectus voluptatibus reiciendis atque ullam consequuntur eaque corporis, odio ipsam neque. Dolores, non.</p>
            
         </section>
-        <section>
-            <h2 id="Hobbies">Hobbies</h2><a href="#Home">Top</a>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi quas doloribus obcaecati ex necessitatibus ea beatae fugiat est vitae magni ipsa aperiam accusamus nam, voluptatum porro in error nobis voluptates!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repudiandae est voluptatem repellendus vero, voluptates laboriosam, hic nesciunt eaque, delectus dolorum tempore distinctio iusto ratione nostrum veritatis minus veniam quisquam.
-            Illo suscipit sunt eius iusto voluptas qui, aperiam dolor soluta nihil consectetur! Nemo totam facere tenetur nostrum asperiores dicta iste. Perspiciatis culpa animi rem accusantium labore nam adipisci? Ipsum, consequatur.
-            Suscipit perspiciatis ut vitae necessitatibus esse harum repellendus amet ea, explicabo beatae ad optio obcaecati at, modi tempore ullam, quisquam mollitia animi aperiam culpa architecto quia minima sint. Impedit, hic.
-            Exercitationem quod nam iste sint, magni sed tempora error labore nisi et doloribus quam porro ipsum, odit corrupti quasi veritatis? Dolores beatae modi maxime aliquam numquam impedit sequi dicta cum.
-            A dolore maiores nam eos minima enim, vel eveniet aspernatur deserunt, beatae officiis asperiores suscipit aliquid corporis voluptatum quis corrupti ducimus pariatur in tempore quaerat perspiciatis nulla voluptatibus perferendis? Consequuntur.
-            Illo eius voluptatibus dolore ipsum voluptate iste, sed aperiam eaque nulla deserunt tempora iure doloremque nam repellendus odit ipsa pariatur tempore explicabo, aspernatur in. Ullam officia nihil sequi aliquam aut.</p>
-            
-            <h3>Mi comida favorita es Fetuchini Alfredo</h3>
-            <P>como preparala:
-                <ol>
-                    <li>Coloca suficiente agua en una olla para cocinar los fideos, agrega sal y lleva a hervir.
-                    </li>
-                    <li>Una vez hirviendo añade la pasta, cocínala siguiendo las indicaciones del empaque. Prepara una sartén grande en otra hornilla a fuego medio.
-                    </li>
-                    <li>Derrite la mantequilla en la sartén caliente, añade la Crema de Leche LA LECHERA® y baja el fuego. Deja hervir hasta que la crema se reduzca ligeramente y añade el queso parmesano.
-                    </li>
-                    <li>Con una espátula remueve derritiendo el queso, sazona con perejil picado y Pimienta Negra recién molida NATURE'S HEART®.
-                    </li>
-                    <li>Una vez lista la pasta, drénala y colócala sobre la salsa. Mezcla bien hasta que la salsa cubra la pasta y sirve enseguida. Decora con perejil y queso parmesano adicional.
-                    </li>
-                </ol> Ingredientes:
-                <ul>
-                        <li> Tazas Fettuccini</li>
-                        <li>1/4 Taza Mantequilla Con Sal picada en cubos</li>
-                        <li>1 Taza Crema de Leche LA LECHERA®</li>
-                        <li>1/2 Taza Queso Parmesano rallado</li>
-                        <li>2 Cucharadas Perejil Fresco picado</li>
-                        <li>1 Cucharadita Pimienta NATURE'S HEART® recién molida</li>
-                </ul>
-                <dl>
-                    <dt>Taza:</dt>
-                    <dd>Una taza equivale a 250 ml</dd>
-                </dl>
-            </P>
+        <section class="mainsection3">
+            <h2 id="Hobbies">Hobbies</h2><a href="#Home"><img src="./assets/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="icon home" height="25px"></a>
 
-            <h4>Passion por las motos</h4>
-            <p>me gustan mucho las motos y mas las de carreras como las de moto GP</p>
-            <a href="https://www.motogp.com/es"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Moto_Gp_logo.svg/1280px-Moto_Gp_logo.svg.png" alt="logo de moto GP" height="20PX"></a>
+                <h3>Go out for rides in my motorcycle</h3>
+                     <p>I relly enjoy go out on my motorcycle with friends and sometimes alone, i prefer spend my time in that, instead of go out for parties, I enjoy spend my time fixing my motorcycle also I like to watch tournaments like motogp <a href="https://www.motogp.com/es"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Moto_Gp_logo.svg/1280px-Moto_Gp_logo.svg.png" alt="logo de moto GP" height="20PX"></a></p>
+                <h3>Listening music</h3>
+                    p>I love listening to music at any time, I think I am a opened-minded person that means that I enjoy the most of kinds of music, but my favorites are pop and mexican corridos</p>
+                <h3>Go to the gym</h3>
+                    <p>Lately i have been going to the gym because I want to improve my physique, I enjoy spend three hours for three day on the week</p>
 
+                <h3>I love to eat</h3>
+                <p>I relly enjoy to eat different kinds of food, but ofcourse I try to avoid junk food, i meant I love to eat special dishes like for example fettuccine Alfredo and i want to share the recipe</p>
+
+                <P>How to cook it:
+                    <ol>
+                        <li>Place enough water in a pot to cook the noodles, add salt and bring to a boil.
+                        </li>
+                        <li>Once boiling, add the pasta, cooked according to the package directions. Prepare a large skillet on another burner over medium heat.
+                        </li>
+                        <li>Melt the butter in a hot pan, add LA LECHERA® Heavy Cream, and reduce the heat. Let it simmer until the cream reduces slightly, then add the Parmesan cheese.
+                        </li>
+                        <li>Using a spatula, stir to melt the cheese, season with chopped parsley and freshly ground NATURE'S HEART® Black Pepper.
+                        </li>
+                        <li>Once the pasta is ready, drain it and place it on top of the sauce. Mix well until the sauce coats the pasta and serve immediately. Garnish with parsley and additional Parmesan cheese.
+                        </li>
+                    </ol> Ingredient:
+                    <ul>
+                            <li> Fettuccini Cups</li>
+                            <li>1/4 Cup Salted Butter, cubed</li>
+                            <li>1 Cup LA LECHERA® Heavy Cream</li>
+                            <li>1/2 Cup Grated Parmesan Cheese</li>
+                            <li>2 tablespoons chopped fresh parsley</li>
+                            <li>1 Teaspoon Freshly Ground NATURE'S HEART® Pepper</li>
+                    </ul>
+                    <dl>
+                        <dt>Cup:</dt>
+                        <dd>One cup is equivalent to 250 ml</dd>
+                    </dl>
+                </P>
         </section>
+        <section class="mainsection4">
+            <h2>My goals</h2>
 
+            <h3>Ba a web developer</h3>
+            <p>I want to be a web developer I think I am a smart person and have different qualities for be better in this field, and ofcourse I want to get a better job and get better oportunities</p>
+            <video src="./assets/Video de WhatsApp 2025-03-31 a las 19.08.29_4c595b5f.mp4" controls height="200px"></video> <br>
+            
+        </section>
+        
+        <section>
     </main>
+
+
     <aside>
+        <h3>I am a student from BIT</h3>
         <a
         href="https://bitinstitute.co/" 
         target="_blank"
         rel="noopener noreferrer"
         ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYUKuLl8V1VZDZyAVZkAJOCVBXJTy9i1ZSSQ&s" alt="logo de BIT" height="20PX"></a>
+        <h3>Random information</h3>
+        <p>I like to watch videos like this</p>
+        <iframe width="330" height="315" src="https://www.youtube.com/embed/8aPJKZRjh1w?si=nsHXELjRIQeYNxp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>I like songs like this</p>
+        <audio src="./assets/Audio de WhatsApp 2025-03-31 a las 19.20.45_6b2bfede.mp3" controls></audio>
+        <section>
+            <table>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Rick Grimes</td>
+                    <td>562 542 6565</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Daryl Dixon</td>
+                    <td>562 542 6565</td>
+                </tr>
+            </table>
+        </section>
     </aside>
-    <footer>
-        <footer id="bottom">
-            <p>content footer</p>
-            <p><a href="#Home">Top</a></p>
-          </footer>
+ 
+    <footer id="bottom">
+            <div id="divf1">
+            <p>&copy;All rights reserved</p>
+            </div>
+            
+            <div id="divf2">
+            <h3>Follow me</h3>
+            <p><ul>
+                <li>@brayan123/facebook.com</li>
+                <li>@brayan-123/tiktok.com</li>
+            </ul></p>
+            </div>
+            
+            <div id="divf2">
+            <p>
+                <a href="#Home" ><img src="./assets/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="icon home" height="25px"></a>
+            </p>
+            </div>
     </footer>
+
 </body>
-</html>
+</htm
