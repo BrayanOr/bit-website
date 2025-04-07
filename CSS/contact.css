@@ -1,0 +1,35 @@
+h1 {
+    background-color: #518C8C;
+}
+p {
+    background-color: #A7D9D4;
+}
+#contacts1 {
+    background-color: #A7D9D4;
+}
+
+footer {
+    height: 10%;
+    width: 100%;
+    background-color: #518C8C;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#divf1 {
+display: flex;
+justify-content: center;
+width: 33%;
+border:(255, 255, 255) solid 2px;
+}
+#divf2 {
+    width: 33%;
+    border: (255, 255, 255) solid 2px;
+    justify-content: center;
+
+}
+#divf3 {
+    width: 34%;
+    border: (255, 255, 255) solid 2px;
+    justify-content: center;
+}
