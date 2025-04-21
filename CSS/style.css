@@ -81,6 +81,11 @@ main{
 
 }
 
+#contentprofession{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
 .divs1 {
     border: 2px solid black;
     margin-top: 5px;
