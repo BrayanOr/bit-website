@@ -1,6 +1,13 @@
 * {
     box-sizing: border-box;
 }
+:root {
+    --color-primario: #04BFAD;
+    --secundary-color:#01403A;
+    --terciary-color:#30F2DF;
+    --fourth-color:#80F2E7;
+    --fiveth-color:#F2F2F2;
+}
 
 body {
     font-family: "Caveat", cursive;
@@ -17,6 +24,7 @@ main,
 aside,
 footer {
     border: 2px solid rgb(255, 255, 255) ; 
+    color:black;
 }
 body {
     margin: 0%;
@@ -29,7 +37,7 @@ body {
 header {
     height: 10%;
     width: 100%;
-    background-image: radial-gradient(#518C8C,#F2F2F2);
+    background-image: radial-gradient( var( --secundary-color), var(--fiveth-color));
 }
 h1 {
     display: flex;
@@ -72,18 +80,14 @@ main{
         border-radius: 20px;
 
 }
-#contentprofession {
-   
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .divs1 {
     border: 2px solid black;
     margin-top: 5px;
     
 }
 .diva, .divb, .divc {
-    width: 600px;
+    width: 300px;
     background-image: radial-gradient(#518C8C, #F2F2F2);
     border-style: solid;
     border-radius: 20px;
@@ -101,6 +105,11 @@ main {
 aside {
     width: 25%;
     background-color: #A7D9D4;
+}
+#tha {
+    border-color: black;
+    border-width: 2px;
+
 }
 
 /* footer--------------------------------------------------------------------------------------------- */
